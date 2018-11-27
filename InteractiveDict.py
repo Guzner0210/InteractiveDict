@@ -1,39 +1,3 @@
-# import os
-# from difflib import get_close_matches
-# import json
-# import sys
-#
-# with open('data.json') as f:
-#     dict = json.load(f)
-#
-#
-# def translate(search):
-#     if type(dict[search]) == list:
-#         for i in dict[search]:
-#             print("The word " + search + " means: " + i)
-#     elif type(dict[search]) == str:
-#         print("The word " + search + " means: " + dict[search])
-#     else:
-#         print("There's an error!")
-#         # more work on this section is on the way...
-#
-#
-# if __name__ == "__main__":
-#
-#     while True:
-#         search = input("What word are you looking for? ")
-#         translate(search)
-#         yon = input("Do you want to look for other words as well? [Yn] ")
-#         if yon.lower() == "y" or yon.lower() == "yes":
-#             continue
-#         elif yon.lower() == "n" or yon.lower() == "no":
-#             break
-#         else:
-#             print("Sorry, I don't understand what you want.")
-#             break
-#
-#     sys.exit()
-
 from tkinter import *
 from tkinter.ttk import *
 import json
